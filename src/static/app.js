@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <ul>
             ${details.participants.map(participant => `<li>${participant}</li>`).join("")}
           </ul>
-        `;
+        `; 
 
         activitiesList.appendChild(activityCard);
 
